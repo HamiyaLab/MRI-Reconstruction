@@ -1,0 +1,53 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# MATLAB
+*.asv
+slprj/
+codegen/
+
+# C/C++
+build/
+cmake-build-*/
+*.obj
+*.o
+*.dll
+*.exe
+*.lib
+*.pdb
+
+# CUDA
+*.cubin
+*.ptx
+
+# Data and model weights
+*.dat
+*.dcm
+*.nii
+*.nii.gz
+*.h5
+*.hdf5
+*.mat
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
